@@ -1,0 +1,211 @@
+body{
+	background: #383838;
+}
+
+.board {
+	width: 480px;
+	height: 480px;
+	border: 5px solid #A0522D;
+	float: left;
+}
+
+.cell {
+	float: left;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.white {
+	background: #FFDEAD;
+}
+
+.black {
+	background: #8B4513;
+}
+
+.image {
+	width: 50px;
+	height: 50px;
+}
+
+.coordinatesV {
+	width: 60px;
+	height: 480px;
+	margin-left: 490px;
+	font: 18px Impact;
+   	color: #FFF8DC;
+   	border: 5px solid #383838;
+   	float: left;
+   	position: absolute;
+}
+
+.coordinatesH {
+	width: 480px;
+	height: 60px;
+	font: 18px Impact;
+	display: table;
+   	color: #FFF8DC;
+   	margin-left: 5px;
+   	position: absolute;
+   	margin-top: 490px;
+}
+
+.vertical {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+   	margin-top: -18px;
+   	padding-top: 18px;
+}
+
+.horizontal {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	vertical-align: middle;
+   	display: inline-block;
+}
+
+.choiceFigures {
+	width: 240px;
+	height: 60px;
+	vertical-align: middle;
+   	display: inline-block;
+   	border: 5px solid #6b6b78;
+   	display: table;
+   	position: absolute;
+   	margin-left: 120px;
+   	margin-top: 210px;
+   	border-radius: 3px;
+}
+
+.choiceFigure {
+	width: 60px;
+	height: 60px;
+	background: #868686;
+	vertical-align: middle;
+   	display: inline-block;
+}
+
+#figureQ {
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+#figureN {
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+#figureR {
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+#figureB {
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+#figureq {
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+#figuren {
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+#figurer {
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+#figureb {
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+.game {
+	background: #FFDEAD;
+	margin-top: 65px;
+	margin-left: 560px;
+	width: 110px;
+	height: 360px;	
+	float: left;
+	position: absolute;
+	overflow-y: scroll;
+}
+
+.game::-webkit-scrollbar {
+	background-color: #8B4513; 
+	width: 8px;
+}
+
+.game::-webkit-scrollbar-thumb {
+	background-color: #FFDEAD;
+}
+
+#text-move {
+	border-bottom: 4px solid #8B4513;
+	font: 18px Impact;
+	color: #8B4513;
+	text-align: center;
+	margin: 0px;
+}
+
+.movesB {
+	background: #8B4513;
+	color: #FFDEAD;
+	font: 16px Impact;
+	text-align: center;
+	margin: 0px;
+}
+
+.movesW {
+	font: 16px Impact;
+	color: #8B4513;
+	text-align: center;
+	margin: 0px;
+}
+
+.menu {
+	width: 282px;
+	height: 460px;
+	margin-left: auto;
+	display: block;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+.list-menu {
+	font: 20px Impact;
+	background: #FFDEAD;
+	color: #8B4513;
+	text-align: center;
+	border: 3px solid #8B4513;
+	border-radius: 5px;
+	width: 210px;
+	height: 50px;
+	margin-top: 15px;
+	display: block;
+}
+
+.lst {
+	list-style-type: none;
+}
+
+.list-menu:hover {
+	cursor: pointer;
+}
+
+#checkmates {
+	color: #FFDEAD;
+	text-align: center;
+	cursor: default;
+	border: 2px solid #FFDEAD;
+}

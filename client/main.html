@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Chess game</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css"/>
+		<link rel = "shortcut icon" href="#"/>
+		<script src = "https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src = "https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src = "brain.js"></script>
+	</head>
+	<body>
+		<div class = "board"></div>
+		<div class = "choiceFigures">
+			<div class = "choiceFigure" id = "queen"></div>
+			<div class = "choiceFigure" id = "rook"></div>
+			<div class = "choiceFigure" id = "knight"></div>
+			<div class = "choiceFigure" id = "bishop"></div>
+		</div>
+		<div class = "coordinatesV"></div>
+		<div class = "game">
+			<p id = "text-move">Game moves</p>
+		</div>
+		<div class = "coordinatesH"></div>
+		<div class = "menu">
+			<h2 id = "checkmates">CHESS</h2>
+			<ul>
+				<li class = "lst"><input class = "list-menu" id = "search" type="button" value="Search for an opponent"/></li>
+				<li class = "lst"><input class = "list-menu" id = "draw" type="button" value="Offer a draw"/></li>
+				<li class = "lst"><input class = "list-menu" id = "surrend" type="button" value="Surrend"/></li>
+			</ul>
+		</div>
+	</body>
+</html>
